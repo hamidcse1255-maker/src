@@ -1,10 +1,10 @@
-package com.apnacollege;
+package com.apnacollege; 
 
 import java.util.Arrays;
 //for the using of the Arrays we must import this
 import java.util.Scanner;
-public class Main {
-    private static int UserNumber;
+public class Main {}
+    private static int userNumber;
 
     public static void printjava() { //we have made the new methods of our self
         System.out.println("Hello java");
@@ -333,7 +333,7 @@ public class Main {
             if (userNumber == myNumber) {
                 System.out.println("yes its Correct number");
                 break;
-            } else if (UserNumber > myNumber) {
+            } else if (userNumber > myNumber) {
                 System.out.println("Your number is too large");
             } else {
                 System.out.println("Your number is too small");
